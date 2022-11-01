@@ -12,6 +12,7 @@
    id="852bd6e8cfc1a45de7acb6bc"
    language="JScript"
    purpose="To memorize contents of containers for you!"
+   save_state="y"
    date_written="2022-11-01 14:47:43"
    requires="3.48"
    version="1.0"
@@ -121,11 +122,11 @@ function vaultAdd(name, line, wildcards) {
                 continue
             }
 
-            newVaultList += thisLine;
+            newVaultList += vaultList[line];
         }
 
         if (exists == 0) {
-            newVaultList += vaultName + ";" + vaultText + ";" + currentTime + "\r\n";
+            newVaultList += "\r\n" + vaultName + ";" + vaultText + ";" + currentTime + "\r\n";
             world.note("Vault " + vaultName + " added!");
         }
     }
@@ -188,7 +189,7 @@ function vaultRemove(name, line, wildcards) {
             continue
         }
 
-        newVaultList += thisLine;
+        newVaultList += vaultList[line];
     }
 
     world.SetVariable("vaults", newVaultList);
