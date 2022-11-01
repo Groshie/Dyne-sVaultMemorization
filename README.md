@@ -1,5 +1,4 @@
-# Dyne-sVaultMemorization
-<h2>Dyne's Vault Memorization</h2>
+# Dyne's Vault Memorization
 <p>Have you ever played the <a href="https://discworld.starturtle.net/lpc/">Discworld MUD</a> and felt like you have a lot of things spread out all over the Disc, but can't remember what you put where?</p>
 <h3>Now there is a solution for that!</h3>
 <p>If you use the popular MUSHclient, you can add this plugin to let it memorize the containers and their contents for you!</p>
