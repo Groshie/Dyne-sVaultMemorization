@@ -70,12 +70,6 @@ You can use this plugin to remember container/vault contents for you!
   </alias>
 </aliases>
 
-<!--  Variables  -->
-
-<variables>
-  <variable name="vaults"></variable>
-</variables>
-
 <!--  Script  -->
 
 
@@ -132,6 +126,7 @@ function vaultAdd(name, line, wildcards) {
     }
 
     world.SetVariable("vaults", newVaultList);
+    world.SaveState;
     return
 }
 
@@ -193,6 +188,7 @@ function vaultRemove(name, line, wildcards) {
     }
 
     world.SetVariable("vaults", newVaultList);
+    world.SaveState;
     return
 }
 
