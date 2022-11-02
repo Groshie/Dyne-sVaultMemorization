@@ -21,3 +21,6 @@
   <li>Navigate to the folder where you saved the .xml-file and open it.</li>
   <li>Now you can close the <i>Plugins</i> dialogue window and start using it!</li>
  </ol>
+<h3>Troubleshooting:</h3>
+<h4>Q: It seems I've recorded two containers into the same entry?</h4>
+<p><b>A:</b> Yes, this can happen if you opened multiple containers in a row. The plugin just reads the most recent 50 lines and identifies the containers it encounters, and records them to the entry.<br><b>Solution so far:</b> Take a few steps to ensure your container text is not within 50 lines of another container.</p>
