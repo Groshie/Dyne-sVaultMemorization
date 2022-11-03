@@ -23,4 +23,6 @@
  </ol>
 <h3>Troubleshooting:</h3>
 <h4>Q: It seems I've recorded two containers into the same entry?</h4>
-<p><b>A:</b> Yes, this can happen if you opened multiple containers in a row. The plugin just reads the most recent 50 lines and identifies the containers it encounters, and records them to the entry.<br><b>Solution so far:</b> Take a few steps to ensure your container text is not within 50 lines of another container.</p>
+<p><b>A:</b> Yes, this can happen if you opened multiple containers in a row. The plugin just reads the most recent 50 lines and identifies the containers it encounters, and records them to the entry.<br><b>Solution so far:</b> Take a few steps to ensure your container text is not within 35 lines of another container.</p>
+<h4>Q: Does it automatically sort vaults for different characters?</h4>
+<p><b>A:</b> No, it does not. But there is nothing preventing you from naming a vault, for instance, 'CharName|VaultName'!</p>
